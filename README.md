@@ -2,8 +2,8 @@
 
 ![Sec-graph triage: existing SARIF findings become inspectable Python evidence, with uncertainty retained.](assets/hero.svg)
 
-[![Public regression checks](https://github.com/Vadale/sec-graph-triage/actions/workflows/ci.yml/badge.svg)](https://github.com/Vadale/sec-graph-triage/actions/workflows/ci.yml)
-[MIT](LICENSE) · [Download](https://github.com/Vadale/sec-graph-triage/releases) · [Worked example](examples/triage-walkthrough.md)
+[![Public regression checks](https://github.com/Vadale/sec-graph-triage-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/Vadale/sec-graph-triage-skill/actions/workflows/ci.yml)
+[MIT](LICENSE) · [Download](https://github.com/Vadale/sec-graph-triage-skill/releases) · [Worked example](examples/triage-walkthrough.md)
 
 **Explain an existing security finding against the code you have now.** An agent
 skill plus a small local Python helper for **SARIF 2.1.0 reports and Python
@@ -35,7 +35,7 @@ skill complements your scanner; it does not run a new scan or the target program
 In Codex, ask the built-in installer:
 
 ```text
-$skill-installer install https://github.com/Vadale/sec-graph-triage/tree/main/skills/sec-graph-triage
+$skill-installer install https://github.com/Vadale/sec-graph-triage-skill/tree/main/skills/sec-graph-triage
 ```
 
 Alternatively, copy the complete [skills/sec-graph-triage](skills/sec-graph-triage)
@@ -105,7 +105,7 @@ accuracy, security completeness, customer validation or measured efficiency.
 
 ## Contribute and reuse
 
-[Report a reproducible issue](https://github.com/Vadale/sec-graph-triage/issues)
+[Report a reproducible issue](https://github.com/Vadale/sec-graph-triage-skill/issues)
 using a small, sanitized example. [Contribution guidance](CONTRIBUTING.md).
 Audit only projects you own or are authorized to review.
 
@@ -114,6 +114,6 @@ Adapted from selected sec-graph normalization/source-window work under MIT;
 The full analyzer, authentication rules, MCP server and upstream benchmark corpus
 are not bundled.
 
-Related: [R Statistical Analysis](https://github.com/Vadale/r-statistical-analysis)
-for statistical work; [AI Project Coach](https://github.com/Vadale/ai-project-coach)
+Related: [R Statistical Analysis](https://github.com/Vadale/r-statistical-analysis-skill)
+for statistical work; [AI Project Coach](https://github.com/Vadale/ai-project-coach-skill)
 for reviewing how you work with AI. Each is independently usable.
