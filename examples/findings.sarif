@@ -1,0 +1,79 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Synthetic documentation example"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "demo/sql-query-concatenation",
+          "level": "warning",
+          "message": {
+            "text": "Inspect whether the identifier reaches a concatenated SQL query."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "database.py"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "orders.py"
+                          },
+                          "region": {
+                            "startLine": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "orders.py"
+                          },
+                          "region": {
+                            "startLine": 3
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "database.py"
+                          },
+                          "region": {
+                            "startLine": 3
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

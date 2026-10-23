@@ -1,0 +1,26 @@
+name: Report a problem
+description: A small, shareable reproduction of unexpected behavior.
+body:
+  - type: markdown
+    attributes:
+      value: "Use fictional or sanitized inputs. Never attach credentials, confidential code/data, private chats or filled personal reports."
+  - type: textarea
+    id: expected
+    attributes:
+      label: Goal and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and reproduction
+      description: Minimal shareable input, request or command; relevant output and error.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Skill version or commit, assistant/model, OS and relevant runtime versions.
+    validations:
+      required: true
