@@ -1,4 +1,4 @@
 interface:
   display_name: "Sec-graph triage"
-  short_description: "Explain SARIF findings with verified Python context"
+  short_description: "Explain existing SARIF findings against Python code"
   default_prompt: "Use $sec-graph-triage to review these SARIF findings against my Python project and explain what to verify next."

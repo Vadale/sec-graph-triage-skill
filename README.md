@@ -14,6 +14,18 @@ For developers reviewing scanner output, maintainers revisiting old findings,
 and security reviewers who need source references rather than an unsupported
 “looks safe.” The helper collects evidence; your host assistant interprets it.
 
+## Try a natural request
+
+Once this skill is installed and visible to your assistant, try:
+
+> Here are a SARIF report and the Python source it refers to. Which findings should I investigate first, what does the current code support, and what is still unknown?
+
+Prioritized findings grounded in cited current source, with scanner claims, supported observations, evidence gaps and the next check kept distinct.
+
+See the [synthetic input/output example](examples/natural-request.md) for expected
+behavior and nearby tasks that need another workflow. Automatic selection
+depends on your host and model; explicit invocation remains available.
+
 ## What you get
 
 | Input or question | Delivered support |

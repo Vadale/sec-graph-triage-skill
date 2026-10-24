@@ -1,6 +1,6 @@
 ---
 name: sec-graph-triage
-description: Triage existing SARIF security findings against a selected Python project. Collect bounded source excerpts and reported flows, check correspondence and explain evidence, gaps, priorities and next checks. Use when reviewing scanner findings or deciding what to investigate; requires an existing report, and does not run a scanner or certify security.
+description: "Explain and prioritize existing SARIF security findings against Python source code. Use when reviewing scanner output to separate reported claims, current code evidence, gaps and next checks. Requires an existing report and selected source root; does not run a scanner, perform a general code audit or certify security."
 ---
 
 # Sec-graph triage
