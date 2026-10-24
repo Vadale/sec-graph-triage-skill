@@ -1,0 +1,5 @@
+{
+  "name": "sec-graph-triage-skill",
+  "version": "0.1.1",
+  "description": "Explain existing SARIF findings against selected Python source. Requires a report and Python; does not run a scanner or certify security."
+}
